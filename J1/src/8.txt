@@ -1,0 +1,21 @@
+1.OOP:Orient Object Programe
+2.默认构造器可以不用声明
+3.非默认构造器必须声明，
+4.当有非默认构造器的时候，默认构造器必须声明
+5.define:定义
+init
+6.面向对象三大特征：
+ 1.封装：Encapsulaton.
+ 2.继承：Inheritance
+ 3.多态：Polymorphism:
+7.Instance
+8.Attribute/Property
+9.Method:方法
+10.作业：写个Student :old grade name sex address no:并且用实例化取值赋值 出来，连成一句话
+11.assignment:赋值
+12.modifiers:修饰符 private default protected public 
+13.statement：语句
+14.作业:	司机
+15.当基本类型做形参，传递的是值，当引用类型做形参，传递的是自己(堆的地址)
+16.但是诸如String Integer Double Float Character Byte Short Boolean Long类型由于是常量，不能
+改变其值，但是还得遵循引用做形参传递的是自己这个特性，因此它传递的是自己的一个副本
