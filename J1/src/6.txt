@@ -1,0 +1,10 @@
+1.数组是引用类型：stack[address堆的首地址]=heap;
+2.length，数组一旦初始化之后，它的长度是固定的。你无法改变长度。
+3.NullPointerException:空指针异常
+4.ArrayIndexOutOfBoundsException:越界异常
+5.作业：找出最大值（for）
+   平均值 ，数组拷贝，颠倒数组
+6.作业：arraycopy,fill,copyOf,sort,binarySearch
+  手写二分查找
+7.作业：手写饱满的3维，并两种遍历。
+  

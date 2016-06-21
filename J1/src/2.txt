@@ -1,0 +1,37 @@
+1.单行注释
+2.多行注释
+3.作业：文档注释：【类前，和函数前】
+   javadoc -d -windowtitle -header -footer XXX.java
+4.
+  for,do,try,if,double,int,abstract,
+boolean,import,while,switch,this,
+  throw,final,instanceof,float,
+interface,
+break,char,implements,long,
+  finally,else,package,super,byte,
+public,
+void,return,extends,
+  throws,static,default,continue,
+class,
+case,synchronized,
+  catch,private,protected,new,short,
+5.数据类型：
+  primitive type(原始类型,stack):byte short int long
+                           float  double
+                           char
+                           boolean
+  reference type(引用类型,heap stack):
+6.C++指针类型：NullPointer type
+  byte:1字节
+  char:2
+  short:2
+  long:8
+  int:4 
+  boolean:1/8
+  double:8
+  float:4
+7.作业:A a Z z 0 9测试其unicode码的10进制。
+  作业：我来自理工大学，我叫XXX
+8.byte：-128--127
+  short:-32768---32767
+9科学计数法必须用浮点

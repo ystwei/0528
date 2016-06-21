@@ -1,0 +1,14 @@
+1.byte:-128---127 （一字节）
+2.short:-32768---32767()
+3.char:[0---65535]
+4.ArithmeticException:算术异常
+5.Infinity
+6.\n:回车加换行 10
+  \r:回车：13
+  \b:8
+  \t:9
+7.char必须有值
+8unicode=utf-8
+9.NullPointerException:空指针异常：没堆，你还想用堆
+10.convert：转换
+11.NaN：not a number

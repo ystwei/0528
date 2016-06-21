@@ -1,0 +1,22 @@
+1.reference type
+2.primitive type
+3.local(局部) ：必须有初值，
+global（全局）：以方法做参照物
+  byte:0
+  short:0
+  int:0
+  long:0L
+  float 0.0f
+  double 0.0
+  char:\u0000
+  boolean :false
+  reference type:null33
+4.作业：正方形 长方形 圆形 梯形，三角形
+5.作业：基本类型的值传递
+6分支语句：if ...else
+7作业：闰年
+8.作业：成绩
+9.作业辅音
+10.作业：判断月份
+
+11.作业：我很衰，妈妈
