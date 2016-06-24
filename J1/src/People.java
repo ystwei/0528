@@ -10,6 +10,8 @@ public class People {
 		
 	}
 	People(int old){
+		this();
+		int age=100;
 		
 	}
 	People(){
