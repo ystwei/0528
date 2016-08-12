@@ -1,0 +1,20 @@
+1.初始化块：优先于构造器执行：
+
+2.作业：自己写 this super {} 继承 看其顺序。
+
+3、作业：Car类。
+
+4.重写：子类继承父类，如果父类某个方法不能满足子类需要，子类需要声明个方法，且方法的名字，形参（个数，顺序，类型），返回值一模一样。
+  但是他的修饰权限可以不同（儿子的权限一定要大于等于父亲的权限）。且static修饰不能重写。
+4.private:
+     作业：[default]
+  protected:测试他两的区别
+  public:
+5.java.lang:Object Math String Integer Thread
+  java.awt:做窗口应用程序的。
+  java.swing:
+  java.net:做网络连接：
+  java.util:工具类：
+  java.io:流
+ 
+  

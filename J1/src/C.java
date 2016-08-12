@@ -11,12 +11,12 @@ public class C extends C0{
 		c.age=200;
 		c.go();
 		
-		C0 c0=new C0();
+		C0 c0=new C(100);
 		((C)c0).mark();
 		
 	}
 	public void mark(){
-		
+		System.out.println("ok");
 	}
 	
 }
