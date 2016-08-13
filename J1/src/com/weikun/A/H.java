@@ -29,9 +29,15 @@ public class H extends H0{
 //		h.plan(new H2());
 		
 		
-		H h=new H();//返回值多态
-		h.exercise(1).ok();
-		h.exercise(2).ok();
+//		H h=new H();//返回值多态
+//		h.exercise(1).ok();
+//		h.exercise(2).ok();
+		
+		String [] str = new String[2];
+		String  s[]={"哈尔滨"};
+		if (str instanceof String[]){
+			System.out.print("true");
+		}
 	}
 	public void plan(IE h1){
 		h1.ok();
