@@ -1,0 +1,35 @@
+1.Error:       Throwable
+  Exception:
+2.ArithmeticException:算术异常
+  ArrayIndexOutOfBoundsException:数组越界异常
+  FileNotFoundException：文件未找到异常
+  ClassNotFoundException:类没有找到异常
+  SocketException:套接字异常
+  NullPointerException:空指针异常
+  EOFException：文件末尾异常
+  ClassCastException:造型异常
+  NumberFormatException:数字格式异常 
+  IOException:输入输出异常。
+  SQLException:数据库操作异常
+  NoSuchMethodException:没有方法异常
+  RuntimeException:运行时异常
+3.try  .. catch ...finally：被动捕获异常
+4.throws：抛出异常是主动抛出异常，写在方法后面，代表这些异常都可能被触发，你必须处理它
+  throw:在语句中，只能抛出一个异常对象
+  RuntimeException异常除外，因为它只有在运行阶段才能触发。
+5.在方法重写中，子类抛出的异常必须是父类异常本身或其子类
+6.作业：自定义异常，圆形，正方形面积有多少种情况，利用三大特性，重写完成
+7.作业：遍历枚举，switch（this）
+8.枚举类和一般类区别：
+  枚举类父亲：Enum
+ 一般类：Object
+  枚举类的构造器是private的，
+ 枚举类没有继承，一般类可以
+9.作业：内部类作业：一般内部类，方法内部类，静态内部类
+ 
+ 
+ 
+
+
+
+  
