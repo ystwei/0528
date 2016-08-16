@@ -1,0 +1,31 @@
+1.匿名内部类：
+  1.假设你就想用这个对象一次。
+  2.类在定以后马上被用到
+  3.类比较小
+  4.如果你声明一个类，并不能使你的程序简化。
+2.作业：三种匿名内部类
+3.时间标记：
+  y:年 
+  M：月
+  d：日
+  H：24小时
+  m：分
+  s：秒
+ 4.作业：月历牌
+ 5.0<=Math.random()<1.0
+ 6.作业：写出10个随机数（a-z），且不重复
+ 7.（选作）作业：四舍六入
+ 8.StringBuffer、StringBuilder区别：
+   StringBuffer:线程安全，速度慢
+   StringBuilder：线程不安全，速度快
+ 9.码制：ISO8859-1
+       GB2312<GBK<GB18030<UTF-8
+ 10.String:heap,stack
+ 11.String,当其值相等时候，其地址是一个地址,但是当你使用new String(), 那么即使值相等，其堆也不等，因为强开堆。
+ 12.前缀：prefix startsWith
+    后缀:suffix   endsWith
+ 13.作业：去掉中间空格  A C B D 
+    
+    
+    
+ 
