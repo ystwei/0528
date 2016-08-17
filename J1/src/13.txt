@@ -25,6 +25,12 @@
  12.前缀：prefix startsWith
     后缀:suffix   endsWith
  13.作业：去掉中间空格  A C B D 
+ 14、如果比较其栈中的值是否相等，我们用==
+    如果比较其堆中的值是否想等，我们用equals
+ 15.作业：equals
+           作业：对象数组的排序。
+          作业：深浅克隆
+    
     
     
     
