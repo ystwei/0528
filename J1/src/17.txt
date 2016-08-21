@@ -1,0 +1,2 @@
+1继承Thread，使用start方法开始线程
+2.sleep：

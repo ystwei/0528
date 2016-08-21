@@ -3,4 +3,7 @@
 作业：拷贝文件，带时间
 字符流：FileReader--Reader，FileWriter--Writer
 缓冲流：BufferedReader BufferedWriter BufferedInputStream BufferedOutputStream
-转换流:InputStreamReader OutputStreamWriter
+转换流:InputStreamReader OutputStreamWriter，System.in,Scanner
+随机访问流：RandomAccessFile(rw)：merge（作业）
+字节数组流：ByteArrayInputStream ByteArrayOutputStream:存储变量在流中，并通过流进行传输 
+作业：拷贝某个目录（且带子目录，而且还带文件）到某个磁盘中
