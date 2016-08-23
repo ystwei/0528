@@ -1,2 +1,11 @@
 1继承Thread，使用start方法开始线程
 2.sleep：
+3.设置优先级:setPriority,
+3.1setName：设置线程名称
+4.等待下一个线程到来，自己在执行 yield
+5.join线程：谁调用join，谁的优先级最高，必须他执行完毕后，其他线程才能执行。
+6.守护线程:setDaemon ISO
+10.Timer,TimerTask:
+11.作业：写个游戏加载。
+12.作业：写个线程同步的
+13作业：线程通信
