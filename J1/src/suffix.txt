@@ -1,1 +1,4 @@
-dll
+a=dll
+b=exe
+c=doc
+e=txt

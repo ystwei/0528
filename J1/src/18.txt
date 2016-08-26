@@ -1,0 +1,13 @@
+1.Collection--->set --->HashSet
+            ---->queue---->LinkedList
+            ----->list--->ArrayList Vector
+2.Map---->HashMap
+          Hashtable--->Properties
+3.作业：List的遍历
+4.作业：冰箱，购物车
+5.作业：hashmap hashtable遍历
+6.hashtable:继承Dictionary类，不允许空键空值，线程安全的，速度慢
+
+  hashmap：继承AbstractMap类,允许空键，空值，线程不安全的，速度快
+7.Set接口：HashSet
+8.Properties：Hashtable
