@@ -1,0 +1,13 @@
+1.Design Pattern:设计模式
+  a.Facade Pattern:门面设计模式
+  b.Singleton Pattern:单子设计模式：private C();
+    1.简单的单子
+    2.同步的单子
+    3.内部类的单子
+    4.双重检查锁定板
+  c.Adapter:适配器模式：
+    1.类的适配器
+    2.对象的适配器
+  d.Observer Pattern:观察者设计模式
+  e.Decorator Pattern:装饰者设计模式
+  f.Command Pattern:命令设计模式

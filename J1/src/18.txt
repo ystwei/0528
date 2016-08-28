@@ -11,3 +11,4 @@
   hashmap：继承AbstractMap类,允许空键，空值，线程不安全的，速度快
 7.Set接口：HashSet
 8.Properties：Hashtable
+9.作业：排序hashmap
