@@ -11,3 +11,18 @@
   d.Observer Pattern:观察者设计模式
   e.Decorator Pattern:装饰者设计模式
   f.Command Pattern:命令设计模式
+  g.Factory Pattern:工厂设计模式
+    1.Simple Factory
+    2.Factory Method
+    3.Abstract Factory
+  h.Proxy Pattern:代理模式
+    1.静态代理模式：
+    2.动态代理
+      1.Java动态代理
+      2.CGLib动态代理 , 
+AIO:异步非阻塞
+NIO：同步非阻塞
+BIO：同步阻塞
+
+
+
