@@ -1,0 +1,26 @@
+1.sun：open source
+  java:Oracle: Apache
+2.Google:
+3.Platform:平台：
+  standard:标准
+  edition：版本
+  DOS windows(win31 win32 windows95 windows97 windows98 windowsme windows2000
+windows2003 windowsxp vista windows7 windows8 windows10)
+linux(red hat centos ubuntu android mac(ios))
+unix
+J2ME：java 2 Micro Edition(淘汰)
+J2SE：java基础和高级部分
+J2EE：Java2 Enterprise Edition：java2 企业版
+
+3.编译型语言：不能跨平台，优点：速度快
+  解释型语言：PHP,JS,  速度慢，跨平台
+  java是先编译再解释：java速度还可以，跨平台
+4.JVM：java virtual machine:解释class文件的
+5.JRE：java Runtime Environment:java 运行环境（load，verifer,interpreter）
+6.GC:(Garbage Collection):垃圾回收，堆
+7.JDK：Java Development Kits:java开发工具集
+8.binary：
+9.source:
+10.编译：Compile java---class
+11.作业：HelloWorld(0---9)
+

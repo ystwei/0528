@@ -22,6 +22,7 @@ public class B {
 		try {
 			dos.setReadOnly(true);
 			dos.setArchive(false);
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
