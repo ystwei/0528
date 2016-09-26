@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function over(){
+		
+		var show=document.getElementById("show");
+		show.style.visibility="visible";
+		
+	}
+	function out(){
+		
+		var show=document.getElementById("show");
+		show.style.visibility="hidden";
+		
+	}
+	function mytime(){
+		alert("I am handsome");
+		
+	}
+
+</script>
+</head>
+<body>
+	<a href="" onmouseover="over()" onmouseout="out()">我的学生</a>
+	
+	<div style="visibility:hidden;" id="show">
+		<img alt="" src="images/1.gif">	
+	</div>
+	
+	<input type ="button" onclick="t=setTimeout('mytime()',5000)">
+	<input type ="button" onclick="clearTimeout(t)">
+	
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function test(){
+		
+		alert(document.getElementById("username").value);
+		alert(document.getElementsByName("username")[0].value);
+		alert(document.all.form1.username.value);
+	}
+	function test2(){
+		
+		var t=document.getElementsByName("type");
+		for(i=0;i<t.length;i++){			
+			if(t[i].checked){
+				alert(t[i].value);
+				break;
+			}			
+		}
+		
+	}
+	function test4(){
+		var t=document.getElementsByName("city");
+		for(i=0;i<t.length;i++){			
+			if(t[i].checked){
+				alert(t[i].value);
+				
+			}			
+		}
+		
+		
+	}
+	function test3(){
+		
+		var t=document.getElementById("interest");
+		for(i=0;i<t.options.length;i++){			
+			if(t[i].selected){
+				alert(t[i].value);
+				
+			}			
+		}
+		
+	}
+
+
+</script>
+</head>
+<body>
+	<form name="form1" method="post" action="1.html" id="form1">
+			姓名：<input type="text" name="username" id="username"/><br/>
+			密码：<input type="password" name="password"/><br/>
+			密码：<input type="password" name="password"/><br/>
+			用户类型：<input type="radio" name="type" value="1" id="type"/>管理员
+				   <input type="radio" name="type" value="2"  id="type"/>一般用户
+				   <br/>
+			你喜欢的城市:
+			<input type="checkbox" name="city" id="city" value="1">北京
+			<input type="checkbox" name="city" id="city" value="2">哈尔滨
+			<input type="checkbox" name="city" id="city" value="3">长春		
+    <br/>
+			爱好：
+			<select name="interest" id="interest">
+				<option value="999" >请选择你喜欢的球类</option><br/>
+				<option value="1" selected="selected">篮球</option>
+				<option value="2">足球</option>
+				<option value="3">排球球</option>
+			</select><br/>		
+		<input type="button" value="取得用户名的第一种方法" onclick="test()"/><br/>
+		<input type="button" value="取得用户名的第二种方法" onclick="test1()"/><br/>
+		<input type="button" value="取得权限的方法" onclick="test2()"/><br/>
+		<input type="button" value="取得兴趣的方法" onclick="test3()"/><br/>
+		<input type="button" value="取得城市的方法" onclick="test4()"/><br/>
+		
+		<input type="reset" value="重置"/><br/>
+		</form>
+</body>
+</html>

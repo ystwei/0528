@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+
+	function ok(){
+		
+		alert('ok');
+	}
+</script>
+<title>Insert title here</title>
+</head>
+<body onload="alert('load')" onunload="alert('unload')">
+	
+	<form action="14.html" method="post" onsubmit="alert('submit')">
+		<input type="button"/>
+		<input type="text" onblur="alert('blur')" onfocus="alert('focus')">	
+		<div>
+			
+			<img alt="" src="images/1.gif" 
+				onmouseup="alert('up');"
+				onmousedown="alert('down');"
+				onmouseover="alert('over');" 
+				onmouseout="alert('our')"
+				>
+			
+		</div>
+		<input type="text" onchange="alert('change')" value="ximing"/>
+		
+		<input type="text" />
+		<input type="submit"/> 
+	</form>
+	<a href="http://www.baidu.com" onclick="ok()">百度</a>
+	
+	
+</body>
+</html>

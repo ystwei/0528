@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+ <style type="text/css">
+    	.warn{border:1px
+			solid red;color:red}
+		#test{width:400px;margin:100px
+			auto;padding:3px}
+		</style> 
+<script type="text/javascript">
+	function ok(e){
+		
+		var key=window.event?e.keyCode:e.which;
+		
+		var v=String.fromCharCode(key);
+		
+		var t=/\d/;
+		
+		var t1=document.getElementById("test");
+		if( t.test(v)){
+			
+			t1.className="";
+			return true;
+		}else{
+			
+			t1.className="warn";
+			return false;
+		}
+		
+	}
+
+</script>
+</head>
+<body>
+	
+	
+	
+	<div id="test" >
+	           请输入数字：
+	           <input type="text" 
+	    		onkeypress="return ok(event)" 
+	    		
+	   			style="ime-mode:Disabled;" />
+	    <span id="msg">请正确输入数字</span>
+	    <input type="text" name="username"/>
+	    
+  </div>
+</body>
+</html>

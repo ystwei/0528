@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	
+	function ok(j){
+		
+		for(var i=0;i<j;i++){
+			
+			document.write(i+"<br/>")
+			
+		}
+		i=0;
+		while(i<10){
+			document.write(i+"<br/>")
+			i++;
+		}
+		i=0;
+		do{
+			document.write(i+"<br/>");
+			i++;
+		}while(i<10);
+		
+	}
+	function ok1(){
+		
+		var a=[1,2,3,4,5];
+		//json
+		var a1=[{name:"mike",age:100},{name:"john",age:200}];
+		
+		for(var i in a1){
+			
+			document.write(a1[i].name+"<br/>");
+		}
+		return 100;
+		
+	}
+	alert(ok1());
+	//ok(10);
+	
+</script>
+</head>
+<body>
+	<input type="button" onclick="alert('ok')">
+	
+
+</body>
+</html>
